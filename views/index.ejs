@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MetaDating Showdown</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+
+    <script>
+
+        $(function () {
+            //open and close cards
+            $(".fighterOne").on("click", ".card-inner", function () {
+                $(this).toggleClass("turn");
+                $(this).addClass("flipped");
+                $('.cardBigOne').fadeIn(1000).css("display", "flex");
+                var metaData = dataFromOne[0]["cards"].filter(d => d.word === $(this).text());
+                var tmpMsg = metaData[0]["data"][Math.floor(Math.random() * metaData[0]["data"].length)];
+                $('.cardBigOne').html("<p>" + tmpMsg + "</p>");
+            })
+            $(".fighterTwo").on("click", ".card-inner", function () {
+                $(this).toggleClass("turn");
+                $(this).addClass("flipped");
+                $('.cardBigTwo').fadeIn(1000).css("display", "flex");
+                var metaData = dataFromTwo[0]["cards"].filter(d => d.word === $(this).text());
+                var tmpMsg = metaData[0]["data"][Math.floor(Math.random() * metaData[0]["data"].length)];
+                $('.cardBigTwo').html("<p>" + tmpMsg + "</p>");
+            })
+
+            $(".cardBigOne").on("click", "p", function () {
+                $('.cardBigOne').css("display", "none");
+                $('.flipped').toggleClass("turn");
+                $('.flipped').removeClass('flipped');
+                $('.cardBigOne').removeClass('show');
+            })
+
+            $(".cardBigTwo").on("click", "p", function () {
+                $('.cardBigTwo').css("display", "none");
+                $('.flipped').toggleClass("turn");
+                $('.flipped').removeClass('flipped');
+                $('.cardBigTwo').removeClass('show');
+            })
+
+            //select one group
+
+            $('.groupSelectionOne .group').on('click', function () {
+                $('.group').removeClass('selected');
+                $(this).addClass('selected');
+            })
+
+            $('.groupSelectionTwo .group').on('click', function () {
+                $('.group').removeClass('selected');
+                $(this).addClass('selected');
+            })
+
+        })
+
+    </script>
+
+    <script>
+        var dataFromOne, dataFromTwo;
+        var wordsArray;
+        $(document).ready(function () {
+            $('.groupSelectionOne .group').click(function () {
+                $('.fighterOne').empty();
+                wordsArray = [];
+                var id = $(this).attr("id");
+                $.getJSON("json/data.json", function (json) {
+                    dataFromOne = json.filter(d => d.group === id);
+                    dataFromOne[0]["cards"].forEach(function (word) {
+                        wordsArray.push(word.word);
+                    })
+                    wordsArray.forEach(function (item) {
+                        $(".fighterOne").append("<div class='card'><div class='card-inner'><div class='card-front'>" + item + "</div></div></div>")
+                    })
+                })
+            })
+
+            $('.groupSelectionTwo .group').click(function () {
+                $('.fighterTwo').empty();
+                wordsArray = [];
+                var id = $(this).attr("id");
+                $.getJSON("json/data.json", function (json) {
+                    dataFromTwo = json.filter(d => d.group === id);
+                    dataFromTwo[0]["cards"].forEach(function (word) {
+                        wordsArray.push(word.word);
+                    })
+                    wordsArray.forEach(function (item) {
+                        $(".fighterTwo").append("<div class='card'><div class='card-inner'><div class='card-front'>" + item + "</div></div></div>")
+                    })
+                })
+            })
+        })
+    </script>
+</head>
+
+<body>
+
+    <div class="groupSelectionOne">
+        <div class="group" id="group1">1</div>
+        <div class="group" id="group2">2</div>
+        <div class="group" id="group3">3</div>
+        <div class="group" id="group4">4</div>
+        <div class="group" id="group5">5</div>
+        <div class="group" id="group6">6</div>
+        <div class="group" id="group7">7</div>
+        <div class="group" id="group8">8</div>
+    </div>
+
+    <div class="groupSelectionTwo">
+        <div class="group" id="group1">1</div>
+        <div class="group" id="group2">2</div>
+        <div class="group" id="group3">3</div>
+        <div class="group" id="group4">4</div>
+        <div class="group" id="group5">5</div>
+        <div class="group" id="group6">6</div>
+        <div class="group" id="group7">7</div>
+        <div class="group" id="group8">8</div>
+    </div>
+
+    <div class="fighterOne"></div>
+
+    <div class="fighterTwo"></div>
+
+    <div class="cardBigOne">
+    </div>
+
+    <div class="cardBigTwo">
+
+    </div>
+
+
+
+</body>
+
+</html>

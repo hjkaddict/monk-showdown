@@ -1,0 +1,116 @@
+[
+    {
+        "group": "group4",
+        "cards": [
+            {
+                "word": "Begrüßung",
+                "data": [
+                    "Juten Abend, watt treibt dich hierher?",
+                    "N’abend. Zieh dir nen Stuhl ran, haste was zu erzählen?"
+                ]
+            },
+            {
+                "word": "Angriffe (Nach gegenAussage)",
+                "data": [
+                    "Du nimmst den Mund ganz schön voll, freundchen.",
+                    "Hab mal nicht sone große Klappe du junger Hüpfer!",
+                    "Wem willst du hier eigentlich was auftischen?",
+                    "Du nimmst den Mund ganz schön voll, freundchen.",
+                    "Du hast doch ‘ne Meise.",
+                    "Ach, Papperlapapp",
+                    "Red nich so’n Stuss."
+                ]
+            },
+            {
+                "word": "Themenwechsel",
+                "data": [
+                    "Komm, ick will dich ma watt anderes noch fragen.",
+                    "Komm, reden wa ma Tacheles.",
+                    "Oßerdem interessiert mich viel mehr",
+                    "Hören wa ma auf um den heißen Brei rumzulabern"
+                ]
+            },
+            {
+                "word": "Offensive (Fragen)",
+                "data": [
+                    "81, Mauerfall, da ham alle noch gelacht. Jetz keener mehr. Biste fröhlich heutzutage?",
+                    "Warum redeste n so komisch?",
+                    "Ick schenk dir erstma ein, watt hältste davon?",
+                    "Ertränkste gerne deine Sorgen im Schnaps?",
+                    "Musste noch wohin?",
+                    "Wie alt bistn überhaupt?",
+                    "Biste besoffen?"
+                ]
+            },
+            {
+                "word": "Frage abschmettern",
+                "data": [
+                    "Dit is mir Jacke wie Hose",
+                    "Geht dich nen feuchten Kehricht an Jüngchen",
+                    "Da mach ick mir keenen Kopf drum",
+                    "Musste dir noch Mut antrinken, oder stellste mir och ma ne richtige Frage?"
+                ]
+            },
+            {
+                "word": "Rückfrage",
+                "data": [
+                    "Wie meinstn dit?",
+                    "Und denne?",
+                    "Watt interessiert mich das?"
+                ]
+            },
+            {
+                "word": "Zustimmung(auf Frage 4,5,6)",
+                "data": [
+                    "Find ick jut",
+                    "Is ne runde Sache",
+                    "Find ick Piano",
+                    "Klingt stark"
+                ]
+            },
+            {
+                "word": "Zustimmung(auf Aussage)",
+                "data": [
+                    "Drück ich dir die Daumen für",
+                    "Na gut auf, Kindchen",
+                    "Yo, da wünsch ick dir dann watt."
+                ]
+            },
+            {
+                "word": "Nonsense",
+                "data": [
+                    "Nächste Runde auf mich!",
+                    "Prost, Kindchen."
+                ]
+            },
+            {
+                "word": "Essen & Trinken",
+                "data": [
+                    "Unter 40% kommt mir garnix oofn Tisch.",
+                    "Mit was Herzhaftem kriegste mich immer.",
+                    "Mich interessiert nur Flüssignahrung wennde weeßt watt ick meine"
+                ]
+            },
+            {
+                "word": "Abschied ",
+                "data": [
+                    "Machs jut, halt die Ohren steif.",
+                    "Ick werd’s och ma packen, ick bin ganz schön matsche.",
+                    "Lasset dir jut gehen."
+                ]
+            }
+        ]
+    },
+    {
+        "group": "group2",
+        "cards": [
+            {
+                "word": "",
+                "data": [
+                    "",
+                    ""
+                ]
+            }
+        ]
+    }
+]
