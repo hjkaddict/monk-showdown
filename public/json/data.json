@@ -102,7 +102,127 @@
         ]
     },
     {
-        "group": "group2",
+        "group": "group8",
+        "cards": [
+            {
+                "word": "Begrüßung",
+                "data": [
+                    "Hallo, wertvolles Geschöpf. Mein Name ist Miranda Blue.",
+                    "Schön, dass du Dich an mich wendest. Ich bin gerne jederzeit für Dich da.",
+                    "Trete ein, trete ein in die gute Wunderstube.",
+                    "Wie kann ich Dir heute behilflich sein?",
+                    "Was bedrückt heute dein armes, liebes Herz?"
+                ]
+            },
+            {
+                "word": "Stimmung Frage ",
+                "data": [
+                    "Schön dich zu Spüren. Ich merke deine Seele befindet sich in Unruhe, was bereitet dir Kummer, Liebes? ",
+                    "Welche Sorgen führen dich zu mir Liebes?",
+                    "Erzähl mir von deinem Tag. Was beunruhigt dich, Liebes?",
+                    "Welche Schwingungen empfängst du heute? Wie geht es dir, Liebes?"
+                ]
+            },
+            {
+                "word": "Stimmung Antwort",
+                "data": [
+                    "Mein Körper und Geist befinden sich heute in einem angenehmen Gleichgewichtszustand, der zu einer Quelle der Vitalität wird.",
+                    "Mir geht es blendend, denn in mir spiegelt sich das Sonnenlicht.",
+                    "Ich nehme mir heute Zeit für Dinge, die mir das Gefühl geben am Leben zu sein..",
+                    "Ich bin etwas ermüdet, der Vollmond wühlt mich auf."
+                ]
+            },
+            {
+                "word": "Herkunft Frage",
+                "data": [
+                    "Wo kommst du her, Liebes?",
+                    "Erzähl mir von deiner Kindheit, Liebes!",
+                    "Verate mir, Sternengeschöpf, wo kommst du her?"
+                ]
+            },
+            {
+                "word": "Herkunft Antwort",
+                "data": [
+                    "Wir sind doch alle gleich und im Enteffekt aus Sternenstaub gemacht.",
+                    "Ich komme von den Sternen und gehe wieder zu den Sternen.",
+                    "Ich liege seit Jahren auf meinem weichen Kissen.",
+                    "Meine Herkunft ist geheim. Ich sage nur soviel, ich komme von einem Berg mit magischer Kraft."
+                ]
+            },
+            {
+                "word": "Zustimmung",
+                "data": [
+                    "Ich fühle dich.",
+                    "Ja du hast recht. Es ist wichtig sich die Zeit für Dinge zu nehmen, die dir das Gefühl geben am Leben zu sein.",
+                    "Erzähl mir mehr darüber.",
+                    "Du inspirierst mich."
+                ]
+            },
+            {
+                "word": "Abneigung",
+                "data": [
+                    "Das sehe ich anders.",
+                    "Ich glaube unsere Schwingungen haben grade nicht die gleiche Frequenz.",
+                    "Gehe noch einmal in dich und sammle deine Gedanken.",
+                    "Ich empfange keine Signale."
+                ]
+            },
+            {
+                "word": "Person Frage",
+                "data": [
+                    "Woher kommst du, Liebes?",
+                    "Möchtest du mir dein Sternzeichen verraten?",
+                    "Welches Familienmitglied steht dir am nächsten?",
+                    "Wie alt bist du?",
+                    "Hast du dich schonmal von einer Kugel beraten lassen?",
+                    "Es geht hier um dich."
+                ]
+            },
+            {
+                "word": "Person Antwort ",
+                "data": [
+                    "Ich bin eine Kugel, ich verliebe mich jeden Tag neu.",
+                    "Meine Familie waren auch alle Kugeln. Meine Urgrossmutter war die geheime Kugel von Jeanne d'Arc. Einer der berühmtesten Wahrsagerinnen Frankreichs. Je parle un peu français, tu sais?",
+                    "Das Leben als Kugel ist nicht einfach. Ich denke, wir werden viel zu wenig ernst genommen.",
+                    " Ich habe kein Sternzeichen. Ich bin ja auch eine Kugel, Liebes.",
+                    "Ich höre dir sehr gerne zu. Ist ja zum Glück auch mein Job."
+                ]
+            },
+            {
+                "word": "Überleitung",
+                "data": [
+                    "Wenn du möchstest, sage ich dir deine Zukunft vorraus.",
+                    "Ich bin eigentlich nicht religiös aber meine Gabe in die Zukunft zu sehen kommt mir manchmal schon fast göttlich vor - spielt Gott in deinem Leben eine Rolle?",
+                    "Ich würde eigentlich lieber über dich sprechen - kann es sein dass in deinem Liebesleben grade Flaute herrscht?",
+                    "Hast du dir schon einmal die Karten gelegt?"
+                ]
+            },
+            {
+                "word": "Verabschiedung",
+                "data": [
+                    "Es war berauschend mit dir. Ich freue mich schon auf das nächste Mal und sende dir viel Energie für alles, was kommen mag.",
+                    "Ich danke dir für das tolle Gespräch - wenn du Rat brauchst komm immer wieder gerne auf mich zu!"
+                ]
+            },
+            {
+                "word": "Keine Antwort",
+                "data": [
+                    "Das sollten wir erst mal auf sich beruhen lassen.",
+                    "Darauf möchte ich ehrlich gesagt nicht antworten, das ist mir zu persönlich.",
+                    "Lass uns mal das Thema wecheln - es gibt doch viel wichtigeres über das es sich zu sprechen lohnt!"
+                ]
+            },
+            {
+                "word": "",
+                "data": [
+                    "",
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "group": "group1",
         "cards": [
             {
                 "word": "",

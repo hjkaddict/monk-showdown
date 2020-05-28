@@ -134,6 +134,7 @@ body {
 
 .cardBigOne p {
     cursor: pointer;
+    margin: 50px;
 }
 
 .cardBigTwo {
@@ -155,4 +156,5 @@ body {
 }
 .cardBigTwo p {
     cursor: pointer;
+    margin: 50px;
 }
